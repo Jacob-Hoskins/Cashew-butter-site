@@ -88,6 +88,7 @@ nav {
 .grabber-2-img{
   width: 100%;
   height: auto;
+  border-radius: 15px;
 }
 
 .g2-text{
@@ -110,6 +111,7 @@ nav {
 .grabber-3-img{
   width: 100%;
   height: auto;
+  border-radius: 15px;
 }
 
 footer{
