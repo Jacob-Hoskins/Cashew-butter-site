@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('font/webfontkit-20220331-184125/handlee-regular-webfont.woff');
+}
+
+body {
+  background-color: #f4eea9;
+  overflow-x: hidden;
+  font-family: 'CustomFont', sans-serif;
+}
+
+
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+nav {
+  background-color: #f0bb62;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-text {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+}
+
+/* grabber 1 */
+.grabber-1 {
+  background-color: #519259;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10% 10%;
+  border-radius: 25px;
+  flex-shrink: 2;
+  padding: 50px;
+}
+
+.grabber-1-text {
+  font-size: 1.9rem;
+  width: 75vw;
+  text-align: center;
+}
+
+.g1-right{
+  display: flex;
+  flex-shrink: 1;
+}
+
+.grabber-1-img {
+  width: 25vw;
+  height: auto;
+  border-radius: 15px;
+  
+}
+
+
+
+/* grabber 2 */
+
+.grabber-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 10px;
+  gap: 10px;
+  margin: 10%;
+}
+
+.grabber-2-img{
+  width: 100%;
+  height: auto;
+}
+
+.g2-text{
+  font-size: 1.9rem;
+}
+
+/* grabber 3 */
+.grabber-3{
+  display: flex;
+  background-color: #064635;
+  font-size: 1.9em;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin: 10% 10%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.grabber-3-img{
+  width: 100%;
+  height: auto;
+}
+
+footer{
+  background-color: #f0bb62;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3%;
+  font-size: 2.5em;
+}
